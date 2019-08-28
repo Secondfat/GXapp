@@ -409,7 +409,7 @@ NSString *back_phone_port = @"/back_phone";
     return timeString;
 }
 
-//检查是否登记
+//检查是否登记1
 - (BOOL)check_login {
     if([[NSUserDefaults standardUserDefaults] objectForKey:@"phone_number"] == nil) {
         return NO;
