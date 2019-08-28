@@ -7,7 +7,7 @@
 //
 
 #import "AppDelegate.h"
-#import "ViewController.h"
+#import "GXCDataController/Handle_local_data.h"
 
 @interface AppDelegate ()
 
@@ -16,12 +16,21 @@
 @implementation AppDelegate
 
 
-- (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-//    self.window.rootViewController = [[UIViewController alloc] init];
-    self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
-    self.window.rootViewController = [[ViewController alloc] init];
-    self.window.backgroundColor = [UIColor whiteColor];
-    [self.window makeKeyAndVisible];
+- (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOption {
+//    if([[NSUserDefaults standardUserDefaults] objectForKey:@"phone_number"] == nil){
+//        //第一次启动
+//    }else{
+//        NSString *store_version = [[NSUserDefaults standardUserDefaults] objectForKey:@"sysversion"];
+//        NSString *current_version = [[[Handle_local_data alloc] init] get_current_version];
+//        if ([store_version isEqualToString:current_version]) {
+//            NSLog(@"222");
+//        } else {
+//            [[Handle_local_data alloc]init];
+//        }
+        
+        //不是第一次启动了
+//        [[NSUserDefaults standardUserDefaults] setBool:NO forKey:@"firstLaunch"];
+//    }
     return YES;
 }
 

@@ -10,7 +10,8 @@
 
 @interface ViewController : UIViewController
 
-
+- (void) tap_status;
+- (void) tap_back;
 
 @end
 

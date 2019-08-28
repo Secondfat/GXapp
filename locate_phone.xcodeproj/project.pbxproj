@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2D031AC71FAB20E84C274AA1 /* libPods-locate_phone.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B8D4B73472249CB8BF110206 /* libPods-locate_phone.a */; };
 		93482DD622E8532D00DC0A39 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 93482DD522E8532D00DC0A39 /* AppDelegate.m */; };
 		93482DD922E8532D00DC0A39 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 93482DD822E8532D00DC0A39 /* ViewController.m */; };
 		93482DDC22E8532D00DC0A39 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 93482DDA22E8532D00DC0A39 /* Main.storyboard */; };
@@ -21,6 +22,9 @@
 		93482E0E22E8C3AF00DC0A39 /* status@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 93482E0B22E8C3AF00DC0A39 /* status@2x.png */; };
 		93482E1122E8C80400DC0A39 /* GXCButtonFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = 93482E1022E8C80400DC0A39 /* GXCButtonFrame.m */; };
 		93482E1422E8DC8800DC0A39 /* handphone.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 93482E1322E8DC8800DC0A39 /* handphone.jpeg */; };
+		93482E1722EAD25400DC0A39 /* GXCAlert_Control.m in Sources */ = {isa = PBXBuildFile; fileRef = 93482E1622EAD25400DC0A39 /* GXCAlert_Control.m */; };
+		93482E3822EB265E00DC0A39 /* GXCHttp.m in Sources */ = {isa = PBXBuildFile; fileRef = 93482E3722EB265E00DC0A39 /* GXCHttp.m */; };
+		93873D0922EF4E1E00FCA976 /* Handle_local_data.m in Sources */ = {isa = PBXBuildFile; fileRef = 93873D0822EF4E1E00FCA976 /* Handle_local_data.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,6 +45,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		28049BD3725AAAEBE10EF788 /* Pods-locate_phone.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-locate_phone.debug.xcconfig"; path = "Target Support Files/Pods-locate_phone/Pods-locate_phone.debug.xcconfig"; sourceTree = "<group>"; };
+		29EA30C8D5D4824F4A345188 /* Pods-locate_phone.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-locate_phone.release.xcconfig"; path = "Target Support Files/Pods-locate_phone/Pods-locate_phone.release.xcconfig"; sourceTree = "<group>"; };
 		93482DD122E8532D00DC0A39 /* locate_phone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = locate_phone.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		93482DD422E8532D00DC0A39 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		93482DD522E8532D00DC0A39 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -64,6 +70,13 @@
 		93482E0F22E8C80400DC0A39 /* GXCButtonFrame.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GXCButtonFrame.h; sourceTree = "<group>"; };
 		93482E1022E8C80400DC0A39 /* GXCButtonFrame.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GXCButtonFrame.m; sourceTree = "<group>"; };
 		93482E1322E8DC8800DC0A39 /* handphone.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = handphone.jpeg; sourceTree = SOURCE_ROOT; };
+		93482E1522EAD25400DC0A39 /* GXCAlert_Control.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GXCAlert_Control.h; sourceTree = "<group>"; };
+		93482E1622EAD25400DC0A39 /* GXCAlert_Control.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GXCAlert_Control.m; sourceTree = "<group>"; };
+		93482E3622EB265E00DC0A39 /* GXCHttp.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GXCHttp.h; sourceTree = "<group>"; };
+		93482E3722EB265E00DC0A39 /* GXCHttp.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GXCHttp.m; sourceTree = "<group>"; };
+		93873D0722EF4E1E00FCA976 /* Handle_local_data.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Handle_local_data.h; sourceTree = "<group>"; };
+		93873D0822EF4E1E00FCA976 /* Handle_local_data.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Handle_local_data.m; sourceTree = "<group>"; };
+		B8D4B73472249CB8BF110206 /* libPods-locate_phone.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-locate_phone.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +84,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2D031AC71FAB20E84C274AA1 /* libPods-locate_phone.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -98,6 +112,8 @@
 				93482DEF22E8533100DC0A39 /* locate_phoneTests */,
 				93482DFA22E8533100DC0A39 /* locate_phoneUITests */,
 				93482DD222E8532D00DC0A39 /* Products */,
+				F3539C0FB2C01591035973BE /* Pods */,
+				EC533E8B506F6DCD0306029E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -114,14 +130,16 @@
 		93482DD322E8532D00DC0A39 /* locate_phone */ = {
 			isa = PBXGroup;
 			children = (
+				93482E4222EC34BF00DC0A39 /* GXCDataController */,
+				93482E3522EB264400DC0A39 /* GXCHttp */,
 				93482E1222E8D70400DC0A39 /* GXClocate_phone */,
 				93482E0922E8C3AF00DC0A39 /* back@2x.png */,
 				93482E0A22E8C3AF00DC0A39 /* borrow@2x.png */,
-				93482E0B22E8C3AF00DC0A39 /* status@2x.png */,
 				93482DD422E8532D00DC0A39 /* AppDelegate.h */,
 				93482DD522E8532D00DC0A39 /* AppDelegate.m */,
 				93482DD722E8532D00DC0A39 /* ViewController.h */,
 				93482DD822E8532D00DC0A39 /* ViewController.m */,
+				93482E0B22E8C3AF00DC0A39 /* status@2x.png */,
 				93482E1322E8DC8800DC0A39 /* handphone.jpeg */,
 				93482DDA22E8532D00DC0A39 /* Main.storyboard */,
 				93482DE022E8533100DC0A39 /* Assets.xcassets */,
@@ -156,8 +174,45 @@
 			children = (
 				93482E0F22E8C80400DC0A39 /* GXCButtonFrame.h */,
 				93482E1022E8C80400DC0A39 /* GXCButtonFrame.m */,
+				93482E1522EAD25400DC0A39 /* GXCAlert_Control.h */,
+				93482E1622EAD25400DC0A39 /* GXCAlert_Control.m */,
 			);
 			path = GXClocate_phone;
+			sourceTree = "<group>";
+		};
+		93482E3522EB264400DC0A39 /* GXCHttp */ = {
+			isa = PBXGroup;
+			children = (
+				93482E3622EB265E00DC0A39 /* GXCHttp.h */,
+				93482E3722EB265E00DC0A39 /* GXCHttp.m */,
+			);
+			path = GXCHttp;
+			sourceTree = "<group>";
+		};
+		93482E4222EC34BF00DC0A39 /* GXCDataController */ = {
+			isa = PBXGroup;
+			children = (
+				93873D0722EF4E1E00FCA976 /* Handle_local_data.h */,
+				93873D0822EF4E1E00FCA976 /* Handle_local_data.m */,
+			);
+			path = GXCDataController;
+			sourceTree = "<group>";
+		};
+		EC533E8B506F6DCD0306029E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B8D4B73472249CB8BF110206 /* libPods-locate_phone.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F3539C0FB2C01591035973BE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				28049BD3725AAAEBE10EF788 /* Pods-locate_phone.debug.xcconfig */,
+				29EA30C8D5D4824F4A345188 /* Pods-locate_phone.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -167,6 +222,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 93482E0022E8533100DC0A39 /* Build configuration list for PBXNativeTarget "locate_phone" */;
 			buildPhases = (
+				9D40E206DD6F351CF543819A /* [CP] Check Pods Manifest.lock */,
 				93482DCD22E8532D00DC0A39 /* Sources */,
 				93482DCE22E8532D00DC0A39 /* Frameworks */,
 				93482DCF22E8532D00DC0A39 /* Resources */,
@@ -289,14 +345,42 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		9D40E206DD6F351CF543819A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-locate_phone-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		93482DCD22E8532D00DC0A39 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				93482E1722EAD25400DC0A39 /* GXCAlert_Control.m in Sources */,
+				93482E3822EB265E00DC0A39 /* GXCHttp.m in Sources */,
 				93482E1122E8C80400DC0A39 /* GXCButtonFrame.m in Sources */,
 				93482DDF22E8532D00DC0A39 /* locate_phone.xcdatamodeld in Sources */,
 				93482DD922E8532D00DC0A39 /* ViewController.m in Sources */,
+				93873D0922EF4E1E00FCA976 /* Handle_local_data.m in Sources */,
 				93482DE722E8533100DC0A39 /* main.m in Sources */,
 				93482DD622E8532D00DC0A39 /* AppDelegate.m in Sources */,
 			);
@@ -467,36 +551,42 @@
 		};
 		93482E0122E8533100DC0A39 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 28049BD3725AAAEBE10EF788 /* Pods-locate_phone.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 4BBKU8SM6M;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = TUX63H4XEY;
 				INFOPLIST_FILE = locate_phone/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.liufan.locate-phone";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sogou.searchqaapp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = searchqaapp;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
 		93482E0222E8533100DC0A39 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 29EA30C8D5D4824F4A345188 /* Pods-locate_phone.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 4BBKU8SM6M;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = TUX63H4XEY;
 				INFOPLIST_FILE = locate_phone/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.liufan.locate-phone";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sogou.searchqaapp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = searchqaapp;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
